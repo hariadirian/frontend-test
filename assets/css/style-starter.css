@@ -1,6 +1,6 @@
 /* 
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author: rianhariadi
+Author URL: http://rianhariadi.com
  */
 @charset "UTF-8";
 /*!
@@ -11551,4 +11551,12 @@ img.mfp-img {
 
 .vertical-bottom{
   margin-top:0px;bottom:0;padding:auto;width:100%;text-align: center;
+}
+
+.list-header{
+  list-style-type:none;
+}
+
+.list-header li i{
+  color: #00c248;
 }
