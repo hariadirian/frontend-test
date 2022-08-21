@@ -1,6 +1,6 @@
 /* 
-Author: rianhariadi
-Author URL: http://rianhariadi.com
+Author: W3layouts
+Author URL: http://w3layouts.com
  */
 @charset "UTF-8";
 /*!
@@ -2739,6 +2739,11 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto; }
+
+  .img-fluid-list {
+    max-width: 70px;
+    margin-bottom: 20px;
+    height: auto; }  
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -9644,6 +9649,9 @@ p {
 .heading {
   max-width: 750px; }
 
+  .heading2 {
+    max-width: 850px; } 
+
 .heading h3 {
   font-size: 35px;
   line-height: 40px;
@@ -9825,13 +9833,15 @@ h4.sub-title {
 
 /*-- index-block2 --*/
 .w3l-index-block2 .s-block {
-  box-shadow: var(--card-box-shadow);
-  border-radius: var(--card-curve);
-  transition: 0.3s ease-in; }
+  /* box-shadow: var(--card-box-shadow); */
+  /* border-radius: var(--card-curve); */
+  /* transition: 0.3s ease-in; */
+ }
 
 .w3l-index-block2 .s-block:hover {
-  box-shadow: var(--card-hover-box-shadow);
-  transition: 0.3s ease-in; }
+  /* box-shadow: var(--card-hover-box-shadow); */
+  /* transition: 0.3s ease-in; */
+ }
 
 .w3l-index-block2 .s-block h3 {
   color: var(--title-color);
@@ -11559,4 +11569,9 @@ img.mfp-img {
 
 .list-header li i{
   color: #00c248;
+}
+
+.include-list{
+  color:#000 !important;
+  font-weight: bolder;
 }
