@@ -11575,3 +11575,10 @@ img.mfp-img {
   color:#000 !important;
   font-weight: bolder;
 }
+
+
+.button-standard1{
+  background-color:#007bff !important;
+  color:white !important;
+  border-radius: 25px;
+}
