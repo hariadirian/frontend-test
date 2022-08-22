@@ -9831,7 +9831,8 @@ h4.sub-title {
 /*--/content with photo5--*/
 .w3l-index-block1 .content {
   position: relative;
-  background: var(--light-bg-color);
+  /* background: var(--light-bg-color); */
+  background: #fff;
   z-index: 1;
   overflow: hidden; }
 
@@ -11632,3 +11633,11 @@ img.mfp-img {
   margin:10px;
   color: gray;
 }
+
+.header-contact{
+  background-color: #fff !important;
+  border-bottom: 1px solid #eee ; 
+  padding:8px;
+}
+
+
