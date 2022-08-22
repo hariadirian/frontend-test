@@ -16,6 +16,26 @@ Author URL: http://rianhariadi.com
   font-weight: normal;
   font-style: normal; }
 
+@font-face { font-family: montserrat-black; 
+    src: url('../fonts/montserrat/Montserrat-Black.otf'); } 
+
+@font-face { font-family: montserrat-bold; 
+    src: url('../fonts/montserrat/Montserrat-Bold.otf'); }
+    
+@font-face { font-family: montserrat-regular; 
+    src: url('../fonts/montserrat/Montserrat-Regular.otf'); }
+      
+@font-face { font-family: montserrat-light; 
+    src: url('../fonts/montserrat/Montserrat-Light.otf'); } 
+
+@font-face { font-family: montserrat-hairline; 
+      src: url('../fonts/montserrat/Montserrat-Hairline.otf'); } 
+
+/* h2{
+font-family: roboto-regular;
+} */
+
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -9618,10 +9638,19 @@ ul {
   margin: 0;
   padding: 0; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,  h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif; }
+  font-family:'montserrat-bold';
+ /*  font-family: 'Roboto', sans-serif;*/ 
+}
+
+.h2{
+  margin: 0;
+  padding: 0;
+  font-family:'montserrat-hairline';
+}
+
 
 p {
   margin: 0;
@@ -11559,6 +11588,16 @@ img.mfp-img {
  
 }
 
+.center-point{
+  padding: 40px;
+  color:#fff !important;
+  font-size: 2.7em;
+}
+
+.center-pointbold{
+  font-weight: bolder;
+}
+
 .vertical-bottom{
   margin-top:0px;bottom:0;padding:auto;width:100%;text-align: center;
 }
@@ -11581,4 +11620,10 @@ img.mfp-img {
   background-color:#007bff !important;
   color:white !important;
   border-radius: 25px;
+}
+
+.contact-title{
+  font-size:1.0em;
+  margin:10px;
+  color: gray;
 }
