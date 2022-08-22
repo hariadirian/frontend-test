@@ -10534,8 +10534,9 @@ button.owl-next {
 }
 
 .w3l-market-footer h6.footer-title-28 {
-  color: var(--primary-color);
-  font-size: 20px;
+
+  color: var(--text-color); 
+  font-size: 15px;
   line-height: 26px;
   margin-bottom: 15px; }
 
