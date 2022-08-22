@@ -10529,7 +10529,9 @@ button.owl-next {
     font-size: 33px; } }
 
 .w3l-market-footer footer.footer-28 {
-  background: #F7F9FD; }
+  /* background: #F7F9FD;  */
+ background: #303030;
+}
 
 .w3l-market-footer h6.footer-title-28 {
   color: var(--primary-color);
@@ -10653,7 +10655,9 @@ button.owl-next {
   transition: 0.3s ease-out; }
 
 .w3l-market-footer .midd-footer-28 {
-  background: #F1F4F9; }
+  /* background: #F1F4F9;  */
+  background: #303030;
+}
 
 @media (max-width: 736px) {
   .w3l-market-footer .grid-col-4 {
