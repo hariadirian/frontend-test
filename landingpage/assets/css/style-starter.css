@@ -10536,8 +10536,9 @@ button.owl-next {
 
 .w3l-market-footer h6.footer-title-28 {
 
-  color: var(--text-color); 
-  font-size: 15px;
+  /* color: var(--text-color);  */
+  color :#999 ;
+  font-size: 16px;
   line-height: 26px;
   margin-bottom: 15px; }
 
@@ -10553,8 +10554,8 @@ button.owl-next {
 .w3l-market-footer .footer-list-28 ul li p {
   font-weight: normal;
   font-size: 16px;
-  color: var(--text-color); }
-
+  color: #999 ;
+}
 .w3l-market-footer .footer-list-28 ul li a:hover {
   text-decoration: underline; }
 
@@ -11653,4 +11654,21 @@ img.mfp-img {
   border:2px solid lightgray; 
   max-width:50px; 
   border-radius:5px;
+}
+
+.footer-font{
+  color: #999 !important; 
+}
+
+.footer-font p{
+  margin-top:  20px;
+}
+
+
+.circle-icon{
+  border: solid 1px #999;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
 }
