@@ -1,3 +1,7 @@
+
+
+# TEST 2
+
 OPTIONAL (clear the entire Environtment):
     1. We will remove all the container and images (Be careful!!)
        - docker stop $(docker ps -a -q)
@@ -10,10 +14,10 @@ OPTIONAL (clear the entire Environtment):
 
 Pre Assume: Using Ubuntu 20.04 and already installed Git
 
-1. Go to folder /src, and clone the repository:
+1. Go to folder /src, and clone from the repository:
    ' git clone https://github.com/boxbilling/boxbilling.git . '
 
-2. Go to root folder ' cd .. ', and Copy folder /landingpage to /src/src :
+2. Go to root folder again ' cd .. ', and Copy folder /landingpage to /src/src :
     '  cp -R ./landingpage ./src/src '
 
 3. execute bash:
