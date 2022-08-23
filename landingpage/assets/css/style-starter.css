@@ -11647,3 +11647,10 @@ img.mfp-img {
 }
 
 
+.social-media-counter{
+  padding:4px; padding-left:20px;
+  padding-right:20px; 
+  border:2px solid lightgray; 
+  max-width:50px; 
+  border-radius:5px;
+}
